@@ -136,13 +136,13 @@ const Home = () => {
           </h4>
 
           <p>
-            <i class="fa-solid fa-caret-right">
+            <i className="fa-solid fa-caret-right">
               <span className="make-bold-settings"> Grade:</span>
             </i>{" "}
             {selectedLevel}
           </p>
           <p>
-            <i class="fa-solid fa-caret-right">
+            <i className="fa-solid fa-caret-right">
               <span className="make-bold-settings">
                 {" "}
                 Number of Quiz Questions:
@@ -151,7 +151,7 @@ const Home = () => {
             {kanjiNumber}
           </p>
           <p>
-            <i class="fa-solid fa-caret-right">
+            <i className="fa-solid fa-caret-right">
               <span className="make-bold-settings"> Quiz Type: </span>
             </i>{" "}
             {quizType}
