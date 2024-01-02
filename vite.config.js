@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // base: "https://Mayank-Behl.github.io/japanese-quiz/",
-  base: "https://Mayank-Behl.github.io/",
+  base: "https://Mayank-Behl.github.io/japanese-quiz/",
+  // base: "https://Mayank-Behl.github.io/",
   plugins: [react()],
 });
