@@ -6,7 +6,7 @@ const Profile = () => {
   const { user, isAuthenticated } = useAuth0();
 
   return (
-    <div>
+    <div className="base-div">
       {isAuthenticated && (
         <article className="profile-container">
           <h2 className="user-name">こんにちは {user?.nickname} さん</h2>

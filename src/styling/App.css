@@ -6,6 +6,10 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.loading-text {
+  background: transparent;
+}
+
 /* App Container Styles */
 .app-container {
   min-height: 100vh;
@@ -14,6 +18,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 20px;
+  background-image: url("./Image1.jpg");
 }
 
 /* App Heading Styles */
@@ -22,6 +27,7 @@
   margin-bottom: 20px;
   font-weight: 400;
   white-space: nowrap;
+  background: transparent;
 }
 
 /* Media Queries for Responsive Design */

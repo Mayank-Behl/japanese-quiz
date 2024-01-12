@@ -6,7 +6,7 @@ const LoginButton = () => {
 
   return (
     !isAuthenticated && (
-      <button className="japanese-button" onClick={() => loginWithRedirect()}>
+      <button className="japanese-button main-btn" onClick={() => loginWithRedirect()}>
         Sign In
       </button>
     )

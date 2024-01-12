@@ -15,7 +15,7 @@ const KanjiToMeaning = ({
   disableCheck,
 }) => {
   return (
-    <div>
+    <div className="quiz-background">
       <div className="extractedKanjiSection">
         {extractedKanji.length > 0 && (
           <div className="quiz-container">

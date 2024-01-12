@@ -1,5 +1,9 @@
 @import "./Base.css";
 
+.quiz-background {
+  background: transparent;
+}
+
 /* Kanji Quiz Section */
 .extractedKanjiSection {
   display: flex;

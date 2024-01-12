@@ -14,8 +14,8 @@ const App = () => {
     <BrowserRouter>
       <main className="app-container">
         {<h1 className="app-heading">漢字 Quiz </h1>}
-        {error && <p>Authentication Error</p>}
-        {!error && isLoading && <p>Loading...</p>}
+        {error && <p className="loading-text">Authentication Error</p>}
+        {!error && isLoading && <p className="loading-text">Loading...</p>}
         {!error && !isLoading && <AuthHandler />}
       </main>
     </BrowserRouter>

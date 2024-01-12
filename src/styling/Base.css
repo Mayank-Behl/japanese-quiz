@@ -9,6 +9,7 @@
 .japanese-button {
   border: 1px solid #ccc;
   padding: 10px 20px;
+  margin: 5px;
   cursor: pointer;
   background: #f0f0f0;
   color: #333;

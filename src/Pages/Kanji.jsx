@@ -239,7 +239,7 @@ const Kanji = () => {
 
   //Need to add contion rendering as per the Type of Quiz Selected
   return (
-    <div>
+    <div className="quiz-background">
       {quizType === "Kanji To Meaning" ? (
         <KanjiToMeaning
           extractedKanji={extractedKanji}

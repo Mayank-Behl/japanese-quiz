@@ -7,4 +7,9 @@
   justify-content: center;
   min-width: 40vw;
   min-height: 30vh;
+  background: transparent;
+}
+
+.logout-text {
+  background: transparent;
 }
